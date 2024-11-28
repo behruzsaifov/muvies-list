@@ -5,15 +5,19 @@ namespace Movies.Application.Model;
 
 public partial class Movie
 {
-    [Required] public Guid Id { get; init; }
+    [Required] 
+    public Guid Id { get; init; }
 
-    [Required] public string Title { get; set; }
+    [Required] 
+    public string Title { get; set; }
 
     public string Slug => GenerateSlug();
 
-    [Required] public int YearOfRelease { get; set; }
+    [Required] 
+    public int YearOfRelease { get; set; }
 
-    [Required] public List<string> Genres { get; init; } = new();
+    [Required] 
+    public List<string> Genres { get; init; } = new();
 
     private string GenerateSlug()
     {
