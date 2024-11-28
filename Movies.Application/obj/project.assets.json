@@ -641,30 +641,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\behruz.sayfov\\.nuget\\packages\\": {}
+    "C:\\Users\\beha1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\behruz.sayfov\\Desktop\\WORK\\Local\\movielist\\muvies-list\\Movies.Application\\Movies.Application.csproj",
+      "projectUniqueName": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Application\\Movies.Application.csproj",
       "projectName": "Movies.Application",
-      "projectPath": "C:\\Users\\behruz.sayfov\\Desktop\\WORK\\Local\\movielist\\muvies-list\\Movies.Application\\Movies.Application.csproj",
-      "packagesPath": "C:\\Users\\behruz.sayfov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\behruz.sayfov\\Desktop\\WORK\\Local\\movielist\\muvies-list\\Movies.Application\\obj\\",
+      "projectPath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Application\\Movies.Application.csproj",
+      "packagesPath": "C:\\Users\\beha1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\behruz.sayfov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\beha1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/alifcapital/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -676,11 +672,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -715,26 +706,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
