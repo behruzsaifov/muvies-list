@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "Dapper/2.1.35": {
         "type": "package",
         "compile": {
@@ -27,12 +27,12 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-rc.2.24473.5": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -109,12 +109,12 @@
           "Microsoft.OpenApi": "1.6.22"
         },
         "compile": {
-          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -128,12 +128,12 @@
           "Swashbuckle.AspNetCore.Swagger": "7.0.0"
         },
         "compile": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -141,12 +141,12 @@
       "Swashbuckle.AspNetCore.SwaggerUI/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -156,7 +156,7 @@
       },
       "Movies.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Dapper": "2.1.35",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-rc.2.24473.5",
@@ -172,7 +172,7 @@
       },
       "Movies.Contracts/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
           "bin/placeholder/Movies.Contracts.dll": {}
         },
@@ -667,7 +667,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "Movies.Application >= 1.0.0",
       "Movies.Contracts >= 1.0.0"
     ]
@@ -678,31 +678,32 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Api\\Movies.Api.csproj",
+      "projectUniqueName": "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Api\\Movies.Api.csproj",
       "projectName": "Movies.Api",
-      "projectPath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Api\\Movies.Api.csproj",
+      "projectPath": "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Api\\Movies.Api.csproj",
       "packagesPath": "C:\\Users\\beha1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Api\\obj\\",
+      "outputPath": "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\beha1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Application\\Movies.Application.csproj": {
-              "projectPath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Application\\Movies.Application.csproj"
+            "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Application\\Movies.Application.csproj": {
+              "projectPath": "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Application\\Movies.Application.csproj"
             },
-            "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Contracts\\Movies.Contracts.csproj": {
-              "projectPath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Contracts\\Movies.Contracts.csproj"
+            "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Contracts\\Movies.Contracts.csproj": {
+              "projectPath": "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Contracts\\Movies.Contracts.csproj"
             }
           }
         }
@@ -711,11 +712,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
@@ -735,7 +741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

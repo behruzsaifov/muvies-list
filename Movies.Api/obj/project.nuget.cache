@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ni1km/YOMA7K+/bXZYXaDDNmmoK6lJHWZqnfvVmygrlB0q2DN7qYOKeQUWwejUL9Ok25dABsSmQ+BKWVoPBIIA==",
+  "dgSpecHash": "Hf/3OfK6cpI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\beha1\\RiderProjects\\WebApplication1\\Movies.Api\\Movies.Api.csproj",
+  "projectFilePath": "C:\\Users\\beha1\\RiderProjects\\muvies-list\\Movies.Api\\Movies.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\beha1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\beha1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
