@@ -9,3 +9,4 @@ C:\Users\beha1\RiderProjects\WebApplication1\Movies.Contracts\obj\Debug\net8.0\M
 C:\Users\beha1\RiderProjects\WebApplication1\Movies.Contracts\obj\Debug\net8.0\refint\Movies.Contracts.dll
 C:\Users\beha1\RiderProjects\WebApplication1\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.pdb
 C:\Users\beha1\RiderProjects\WebApplication1\Movies.Contracts\obj\Debug\net8.0\ref\Movies.Contracts.dll
+C:\Users\beha1\RiderProjects\WebApplication1\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.sourcelink.json
