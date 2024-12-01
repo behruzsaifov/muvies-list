@@ -1,0 +1,107 @@
+ .gitignore                                         |  13 [32m+[m
+ .idea/.idea.Movies/.idea/dataSources.xml           |   5 [32m+[m
+ .idea/.idea.Movies/.idea/sqldialects.xml           |   6 [31m-[m
+ .idea/.idea.Movies/.idea/vcs.xml                   |   6 [32m+[m
+ Movies.Api/Controllers/MoviesController.cs         |  23 [32m+[m[31m-[m
+ Movies.Api/Movies.Api.csproj                       |   2 [32m+[m[31m-[m
+ Movies.Api/bin/Debug/net8.0/Dapper.dll             | Bin [31m243712[m -> [32m0[m bytes
+ ...Extensions.DependencyInjection.Abstractions.dll | Bin [31m65320[m -> [32m0[m bytes
+ .../Microsoft.Extensions.Logging.Abstractions.dll  | Bin [31m65320[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Microsoft.OpenApi.dll  | Bin [31m243744[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Movies.Api.deps.json   | 208 [31m------[m
+ Movies.Api/bin/Debug/net8.0/Movies.Api.dll         | Bin [31m17408[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Movies.Api.exe         | Bin [31m142848[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Movies.Api.pdb         | Bin [31m23100[m -> [32m0[m bytes
+ .../bin/Debug/net8.0/Movies.Api.runtimeconfig.json |  19 [31m-[m
+ Movies.Api/bin/Debug/net8.0/Movies.Application.dll | Bin [31m29184[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Movies.Application.pdb | Bin [31m25956[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Movies.Contracts.dll   | Bin [31m6656[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Movies.Contracts.pdb   | Bin [31m11576[m -> [32m0[m bytes
+ Movies.Api/bin/Debug/net8.0/Npgsql.dll             | Bin [31m1429504[m -> [32m0[m bytes
+ .../net8.0/Swashbuckle.AspNetCore.Swagger.dll      | Bin [31m17920[m -> [32m0[m bytes
+ .../net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll   | Bin [31m147456[m -> [32m0[m bytes
+ .../net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll    | Bin [31m2248192[m -> [32m0[m bytes
+ .../bin/Debug/net8.0/appsettings.Development.json  |  11 [31m-[m
+ Movies.Api/bin/Debug/net8.0/appsettings.json       |  12 [31m-[m
+ .../.NETCoreApp,Version=v8.0.AssemblyAttributes.cs |   4 [31m-[m
+ .../obj/Debug/net8.0/Movies.Api.AssemblyInfo.cs    |  22 [31m-[m
+ .../net8.0/Movies.Api.AssemblyInfoInputs.cache     |   1 [31m-[m
+ ...s.Api.GeneratedMSBuildEditorConfig.editorconfig |  19 [31m-[m
+ .../obj/Debug/net8.0/Movies.Api.GlobalUsings.g.cs  |  17 [31m-[m
+ ...ovies.Api.MvcApplicationPartsAssemblyInfo.cache |   0
+ .../Movies.Api.MvcApplicationPartsAssemblyInfo.cs  |  16 [31m-[m
+ .../obj/Debug/net8.0/Movies.Api.assets.cache       | Bin [31m5685[m -> [32m0[m bytes
+ .../Movies.Api.csproj.AssemblyReference.cache      | Bin [31m5655[m -> [32m0[m bytes
+ .../Movies.Api.csproj.CoreCompileInputs.cache      |   1 [31m-[m
+ .../net8.0/Movies.Api.csproj.FileListAbsolute.txt  |  40 [31m--[m
+ .../obj/Debug/net8.0/Movies.Api.csproj.Up2Date     |   0
+ Movies.Api/obj/Debug/net8.0/Movies.Api.dll         | Bin [31m17408[m -> [32m0[m bytes
+ .../Debug/net8.0/Movies.Api.genruntimeconfig.cache |   1 [31m-[m
+ Movies.Api/obj/Debug/net8.0/Movies.Api.pdb         | Bin [31m23100[m -> [32m0[m bytes
+ Movies.Api/obj/Debug/net8.0/apphost.exe            | Bin [31m142848[m -> [32m0[m bytes
+ Movies.Api/obj/Debug/net8.0/ref/Movies.Api.dll     | Bin [31m9216[m -> [32m0[m bytes
+ Movies.Api/obj/Debug/net8.0/refint/Movies.Api.dll  | Bin [31m9216[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/staticwebassets.build.json    |  11 [31m-[m
+ .../staticwebassets/msbuild.build.Movies.Api.props |   3 [31m-[m
+ .../msbuild.buildMultiTargeting.Movies.Api.props   |   3 [31m-[m
+ .../msbuild.buildTransitive.Movies.Api.props       |   3 [31m-[m
+ Movies.Api/obj/Movies.Api.csproj.nuget.dgspec.json | 198 [31m------[m
+ Movies.Api/obj/Movies.Api.csproj.nuget.g.props     |  18 [31m-[m
+ Movies.Api/obj/Movies.Api.csproj.nuget.g.targets   |   6 [31m-[m
+ Movies.Api/obj/project.assets.json                 | 742 [31m---------------------[m
+ Movies.Api/obj/project.nuget.cache                 |  19 [31m-[m
+ Movies.Api/obj/project.packagespec.json            |   1 [31m-[m
+ Movies.Api/obj/rider.project.model.nuget.info      |   1 [31m-[m
+ Movies.Api/obj/rider.project.restore.info          |   1 [31m-[m
+ .../ApplicationServiceCollectionExtensions.cs      |   2 [32m+[m
+ Movies.Application/Model/Movie.cs                  |  12 [32m+[m[31m-[m
+ Movies.Application/Movies.Application.csproj       |   7 [32m+[m[31m-[m
+ Movies.Application/Services/IMovieService.cs       |  13 [32m+[m
+ Movies.Application/Services/MovieService.cs        |  51 [32m++[m
+ .../bin/Debug/net8.0/Movies.Application.deps.json  | 184 [31m-----[m
+ .../bin/Debug/net8.0/Movies.Application.dll        | Bin [31m29184[m -> [32m0[m bytes
+ .../bin/Debug/net8.0/Movies.Application.pdb        | Bin [31m25956[m -> [32m0[m bytes
+ .../.NETCoreApp,Version=v8.0.AssemblyAttributes.cs |   4 [31m-[m
+ .../net8.0/Movies.Application.AssemblyInfo.cs      |  22 [31m-[m
+ .../Movies.Application.AssemblyInfoInputs.cache    |   1 [31m-[m
+ ...ation.GeneratedMSBuildEditorConfig.editorconfig |  13 [31m-[m
+ .../net8.0/Movies.Application.GlobalUsings.g.cs    |   8 [31m-[m
+ .../Debug/net8.0/Movies.Application.assets.cache   | Bin [31m6324[m -> [32m0[m bytes
+ ...vies.Application.csproj.AssemblyReference.cache | Bin [31m3736[m -> [32m0[m bytes
+ ...vies.Application.csproj.CoreCompileInputs.cache |   1 [31m-[m
+ .../Movies.Application.csproj.FileListAbsolute.txt |  12 [31m-[m
+ .../obj/Debug/net8.0/Movies.Application.dll        | Bin [31m29184[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/Movies.Application.pdb        | Bin [31m25956[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/ref/Movies.Application.dll    | Bin [31m10752[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/refint/Movies.Application.dll | Bin [31m10752[m -> [32m0[m bytes
+ .../Movies.Application.csproj.nuget.dgspec.json    |  80 [31m---[m
+ .../obj/Movies.Application.csproj.nuget.g.props    |  22 [31m-[m
+ .../obj/Movies.Application.csproj.nuget.g.targets  |   7 [31m-[m
+ Movies.Application/obj/project.assets.json         | 718 [31m--------------------[m
+ Movies.Application/obj/project.nuget.cache         |  19 [31m-[m
+ Movies.Application/obj/project.packagespec.json    |   1 [31m-[m
+ .../obj/rider.project.model.nuget.info             |   1 [31m-[m
+ Movies.Application/obj/rider.project.restore.info  |   1 [31m-[m
+ Movies.Contracts/Movies.Contracts.csproj           |   2 [32m+[m[31m-[m
+ .../bin/Debug/net8.0/Movies.Contracts.deps.json    |  23 [31m-[m
+ .../bin/Debug/net8.0/Movies.Contracts.dll          | Bin [31m6656[m -> [32m0[m bytes
+ .../bin/Debug/net8.0/Movies.Contracts.pdb          | Bin [31m11576[m -> [32m0[m bytes
+ .../.NETCoreApp,Version=v8.0.AssemblyAttributes.cs |   4 [31m-[m
+ .../Debug/net8.0/Movies.Contracts.AssemblyInfo.cs  |  22 [31m-[m
+ .../Movies.Contracts.AssemblyInfoInputs.cache      |   1 [31m-[m
+ ...racts.GeneratedMSBuildEditorConfig.editorconfig |  13 [31m-[m
+ .../net8.0/Movies.Contracts.GlobalUsings.g.cs      |   8 [31m-[m
+ .../obj/Debug/net8.0/Movies.Contracts.assets.cache | Bin [31m152[m -> [32m0[m bytes
+ ...Movies.Contracts.csproj.CoreCompileInputs.cache |   1 [31m-[m
+ .../Movies.Contracts.csproj.FileListAbsolute.txt   |  11 [31m-[m
+ .../obj/Debug/net8.0/Movies.Contracts.dll          | Bin [31m6656[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/Movies.Contracts.pdb          | Bin [31m11576[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/ref/Movies.Contracts.dll      | Bin [31m6656[m -> [32m0[m bytes
+ .../obj/Debug/net8.0/refint/Movies.Contracts.dll   | Bin [31m6656[m -> [32m0[m bytes
+ .../obj/Movies.Contracts.csproj.nuget.dgspec.json  |  62 [31m--[m
+ .../obj/Movies.Contracts.csproj.nuget.g.props      |  15 [31m-[m
+ .../obj/Movies.Contracts.csproj.nuget.g.targets    |   2 [31m-[m
+ Movies.Contracts/obj/project.assets.json           |  67 [31m--[m
+ Movies.Contracts/obj/project.nuget.cache           |   8 [31m-[m
+ Movies.Contracts/obj/project.packagespec.json      |   1 [31m-[m
+ .../obj/rider.project.model.nuget.info             |

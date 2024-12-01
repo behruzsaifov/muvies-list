@@ -1,3 +1,4 @@
+using Movies.Api.Controllers.Mapper;
 using Movies.Application;
 using Movies.Application.Database;
 
@@ -28,6 +29,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseMiddleware<ValidationMappingMiddleware>();
 app.MapControllers();
 
 var dbinitializer = app.Services.GetRequiredService<DbInitializer>();
