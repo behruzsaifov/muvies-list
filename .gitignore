@@ -1,5 +1,10 @@
 # Исключить файлы сборки
-*/obj/
+*Movies.Application/bin/
+*Movies.Application/obj/
+*Movies.Api/bin/
+*Movies.Api/obj/
+*Movies.Contracts/bin/
+*Movies.Contracts/obj/
 */bin/
 *.dll
 *.pdb
