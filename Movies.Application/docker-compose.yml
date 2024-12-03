@@ -8,5 +8,6 @@ services:
       - POSTGRES_USER=course
       - POSTGRES_PASSWORD=changeme
       - POSTGRES_DB=movies
+    command: -p 5433
     ports:
-      - '5432:5432'
+      - '5433:5433'
