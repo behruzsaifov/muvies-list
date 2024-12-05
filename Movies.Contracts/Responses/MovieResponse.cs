@@ -13,6 +13,10 @@ public class MovieResponse
     [Required]
     public string Slug { get; init; } 
     
+    public int? UserRating { get; init; }
+    
+    public float? Rating { get; init; }
+    
     [Required]
     public int YearOfRelease { get; init; }
 
