@@ -12,6 +12,8 @@ public partial class Movie
     public string Title { get; set; }
 
     public string Slug => GenerateSlug();
+    public float? Rating { get; set; }
+    public int? UserRating { get; set; }
 
     [Required] 
     public int YearOfRelease { get; set; }
