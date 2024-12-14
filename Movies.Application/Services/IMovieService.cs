@@ -1,4 +1,4 @@
-﻿using Movies.Application.Model;
+﻿using Movies.Application.Models;
 
 namespace Movies.Application.Services;
 
