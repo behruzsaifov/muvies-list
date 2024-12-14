@@ -42,11 +42,11 @@ public class MovieService : IMovieService
     {
         await _movieValidator.ValidateAndThrowAsync(movie, cancellationToken: token);
         var movieExists = await _movieRepository.ExistsByIdAsync(movie.Id, token);
-        if(!movieExists)
+        if (!movieExists)
         {
             return null;
         }
-        
+
         await _movieRepository.UpdateAsync(movie, token);
 
         if (!userid.HasValue)

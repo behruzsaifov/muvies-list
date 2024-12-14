@@ -1,6 +1,4 @@
-﻿using System.Security.Claims;
-
-namespace Movies.Api.Auth;
+﻿namespace Movies.Api.Auth;
 
 public static class IdentityExtentions
 {
