@@ -10,5 +10,6 @@ public class CreateMovieRequest
     [Required]
     public int YearOfRelease { get; init; }
 
-    [Required] public IEnumerable<string> Genres { get; init; } = Enumerable.Empty<string>();
+    [Required] 
+    public IEnumerable<string> Genres { get; init; } = Enumerable.Empty<string>();
 }
