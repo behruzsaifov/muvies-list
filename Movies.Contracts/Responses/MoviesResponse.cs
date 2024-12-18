@@ -2,7 +2,7 @@
 
 namespace Movies.Contracts.Responses;
 
-public class MoviesResponse
+public class MoviesResponse : PageResponse<MovieResponse>
 {
-    [Required] public IEnumerable<MovieResponse> Items { get; set; } = Enumerable.Empty<MovieResponse>();
+    
 }
