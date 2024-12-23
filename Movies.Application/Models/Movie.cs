@@ -33,5 +33,4 @@ public partial class Movie
 
     [GeneratedRegex("[^0-9A-Za-z _-]", RegexOptions.NonBacktracking, 10)]
     private static partial Regex SlugRegex();
-
 }
