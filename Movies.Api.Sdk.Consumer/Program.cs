@@ -1,9 +1,22 @@
 ﻿using System.Text.Json;
+using Microsoft.Extensions.DependencyInjection;
 using Movies.Api.Sdk;
 using Movies.Contracts.Requests;
 using Refit;
 
-var moviesApi = RestService.For<IMoviesApi>("https://localhost:7163");
+// var moviesApi = RestService.For<IMoviesApi>("https://localhost:7163");
+
+var services = new ServiceCollection();
+
+var serviceProvider = services.BuildServiceProvider();
+
+services.AddRefitClient<IMoviesApi>()
+    .ConfigureHttpClient(x => 
+        x.BaseAddress = new Uri("https://localhost:7163"));
+
+var provider = services.BuildServiceProvider();
+
+var moviesApi = provider.GetRequiredService<IMoviesApi>();
 
 // var movie = await moviesApi.GetMovieAsync("nick-the-greek-2023");
 
