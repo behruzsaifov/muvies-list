@@ -5,7 +5,7 @@ using Movies.Api.Sdk.Consumer;
 using Movies.Contracts.Requests;
 using Refit;
 
-// var moviesApi = RestService.For<IMoviesApi>("https://localhost:7163");
+//var moviesApi = RestService.For<IMoviesApi>("https://localhost:7163");
 
 var services = new ServiceCollection();
 
@@ -16,10 +16,8 @@ services
     {
         AuthorizationHeaderValueGetter = async () => await s.GetRequiredService<AuthTokenProvider>().GetTokenAsync()
     })
-    .ConfigureHttpClient(client =>
-    {
-        client.BaseAddress = new Uri("https://localhost:7163");
-    });
+    .ConfigureHttpClient(x =>
+        x.BaseAddress = new Uri("https://localhost:7163"));
 
 var provider = services.BuildServiceProvider();
 
@@ -27,13 +25,29 @@ var moviesApi = provider.GetRequiredService<IMoviesApi>();
 
 var movie = await moviesApi.GetMovieAsync("nick-the-greek-2023");
 
+var newMovie = await moviesApi.CreateMovieAsync(new CreateMovieRequest
+{
+    Title = "Spiderman 2",
+    YearOfRelease = 2002,
+    Genres = new []{ "Action"}
+});
+
+await moviesApi.UpdateMovieAsync(newMovie.Id, new UpdateMovieRequest()
+{
+    Title = "Spiderman 2",
+    YearOfRelease = 2002,
+    Genres = new []{ "Action", "Adventure"}
+});
+
+await moviesApi.DeleteMovieAsync(newMovie.Id);
+
 var request = new GetAllMoviesRequest
 {
     Title = null,
     Year = null,
     SortBy = null,
     Page = 1,
-    PageSize = 3,
+    PageSize = 3
 };
 
 var movies = await moviesApi.GetAllMoviesAsync(request);
